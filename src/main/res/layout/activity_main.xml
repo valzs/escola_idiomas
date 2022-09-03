@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.Acesso.MainActivity"
+    tools:ignore="MissingClass">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="174dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="176dp"
+        android:background="#8A0101"
+        android:onClick="BuscarProfessor"
+        android:text="Consultar Professor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="176dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="396dp"
+        android:background="#8A0101"
+        android:onClick="BuscarAula"
+        android:text="Consultar Aula"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="173dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="128dp"
+        android:background="#8A0101"
+        android:onClick="InserirAula"
+        android:text="Inserir Aula"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="172dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="4dp"
+        android:background="#8A0101"
+        android:onClick="InserirProfessor"
+        android:text="Inserir Professor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="172dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="16dp"
+        android:background="#770808"
+        android:onClick="InserirAluno"
+        android:text="Inserir Aluno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="172dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="232dp"
+        android:background="#8A0101"
+        android:onClick="BuscarAluno"
+        android:text="Consultar Aluno"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="171dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="72dp"
+        android:background="#8A0101"
+        android:onClick="InserirUsuario"
+        android:text="Inserir Usuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="292dp"
+        android:background="#8A0101"
+        android:onClick="BuscarUsuario"
+        android:text="Consultar Usuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="171dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="124dp"
+        android:background="#8A0101"
+        android:onClick="InserirCurso"
+        android:text="Inserir Curso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="174dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="344dp"
+        android:background="#8A0101"
+        android:onClick="BuscarCurso"
+        android:text="Consultar Curso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

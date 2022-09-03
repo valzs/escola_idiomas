@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"/>
+    <EditText
+        android:id = "@+id/nomeTxt"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:inputType = "text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Idade" />
+    <EditText
+        android:id = "@+id/idadeTxt"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:inputType = "text" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Objetivo"/>
+    <EditText
+        android:id = "@+id/objetivoTxt"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:inputType = "text" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:background="#8A0101"
+        android:rotationX="360"
+        android:text="Inserir"
+        android:textColor="#FDFDFD"
+        android:textColorHighlight="#050505"
+        android:textColorHint="#511414"
+        android:textColorLink="#9605D1" />
+
+</LinearLayout>

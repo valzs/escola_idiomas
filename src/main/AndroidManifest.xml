@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.escolacursos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Escola de Idiomas"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity android:name="com.example.escolacursos.Telas.Acesso.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Acesso.MainActivity" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Professor.AlterarProfessor" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Professor.ConsultarProfessor" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Aluno.ConsultarAlunoParametro" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Aluno.ConsultarAluno" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Aluno.BuscarAluno" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Aluno.InserirAluno" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Professor.InserirProfessor" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Aula.ConsultarAula" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Aula.AlterarAula" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Aula.InserirAula" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Professor.ConsultarProfessorParametro" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Aluno.AlterarAluno" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Usuario.InserirUsuario" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Professor.BuscarProfessor" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Aula.BuscarAula" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Aula.ConsultarAulaParametro" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Usuario.BuscarUsuario" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Usuario.ConsultarUsuarioParametro" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Usuario.ConsultarUsuario" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Usuario.AlterarUsuario" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Curso.InserirCurso" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Curso.BuscarCurso" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Curso.AlterarCurso" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Curso.ConsultarCurso" >
+        </activity>
+        <activity android:name="com.example.escolacursos.Telas.Curso.ConsultarCursoParametro" >
+        </activity>
+    </application>
+
+</manifest>

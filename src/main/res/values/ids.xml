@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button" type="id" />
+    <item name="editText" type="id" />
+    <item name="editText2" type="id" />
+    <item name="editText3" type="id" />
+    <item name="editText8" type="id" />
+    <item name="login" type="id" />
+    <item name="senha" type="id" />
+    <item name="btentrar" type="id" />
+    <item name="editText4" type="id" />
+    <item name="editText5" type="id" />
+    <item name="editText6" type="id" />
+    <item name="editText7" type="id" />
+    <item name="button2" type="id" />
+    <item name="button3" type="id" />
+    <item name="idCorrentista" type="id" />
+    <item name="numeroCorrentista" type="id" />
+    <item name="dataaberturaCorrentista" type="id" />
+    <item name="idadeCorrentista" type="id" />
+    <item name="listView" type="id" />
+    <item name="nomeProduto" type="id" />
+    <item name="idProduto" type="id" />
+    <item name="possuiProduto" type="id" />
+    <item name="agenciaCorrentista" type="id" />
+    <item name="button14" type="id" />
+    <item name="correntistaSpinner" type="id" />
+    <item name="id" type="id" />
+    <item name="idCor" type="id" />
+    <item name="idPro" type="id" />
+    <item name="observacao" type="id" />
+</resources>
